@@ -133,6 +133,10 @@ header nav {
 	color: black;
 	font-weight: 900;
 }
+.pricing {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
 .negritaResaltado {
 	font-weight: 700;
 }
