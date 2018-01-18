@@ -1,3 +1,6 @@
+/* *
+ * RESET DE STYLES
+ * */
 html, body {
 	margin: 0;
 	padding: 0;
@@ -5,19 +8,14 @@ html, body {
 	width: 100%;
 }
 
-body {
+/* * *
+ * SECCIÓN DE INTRODUCCIÓN
+ * * */
 
-}
-header {
-
-}
-
-header nav {
-}
-
-#menuNav li {
-}
-
+/* *
+ * COMIENZO
+ * */ 
+ 
 .intro {
 	height: 100%;
 	width: 100%;
@@ -40,6 +38,7 @@ header nav {
 	text-align: center;
 }
 
+/* Logo de Kdabra en grande */
 .kdabraLogo {
 	color: #c0392b;
 	font-family: 'Roboto', sans-serif;
@@ -49,21 +48,14 @@ header nav {
 	margin: 0;
 }
 
-.textKdabra {
-	color: #c0392b;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-	font-size: 1em;
-	padding: 0;
-	margin: 0;
-}
-
+/* Descripción y sub-mensaje */
 .kdabraDesc {
 	margin: 0em 0em 10em 0em;
 	font-style: italic;
 	font-family: 'Montserrat', sans-serif;
 }
 
+/* Botón Comenza y acción al hover */
 .btnStart {
 	color: #2c3e50;
 	font-family: 'Oswald', sans-serif;
@@ -81,6 +73,21 @@ header nav {
 .btnStart:hover {
 	color: #c0392b;
 	border-color: #c0392b;
+}
+
+/* *
+ * FIN
+ * */ 
+
+
+
+.textKdabra {
+	color: #c0392b;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 1em;
+	padding: 0;
+	margin: 0;
 }
 
 .content {
