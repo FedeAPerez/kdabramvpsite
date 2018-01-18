@@ -89,7 +89,6 @@ header nav {
 	margin: auto;
 	display: table;
 	top 0;
-	border-top: solid #999 1px;
 
 }
 .content .demo {
@@ -97,6 +96,7 @@ header nav {
 	padding: 0.5em;
 	background-color: #f9f9f9;
 	border-bottom: solid #999 1px;
+	border-top: solid #999 1px;
 }
 
 .titleDemo {
