@@ -1,5 +1,5 @@
 $(document).ready(function(){
-alert("llego a js");
+	alert("llego a js");
 	$("#idBtnStart").click(function (){
 		$('html, body').animate({
 			alert("estoy ejecutando");
