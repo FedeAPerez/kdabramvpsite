@@ -98,12 +98,13 @@ html, body {
 	top 0;
 
 }
-.content .demo {
+#content .demo {
 	margin: 0;
 	padding: 0.5em;
 	background-color: #f9f9f9;
 	border-bottom: solid #999 1px;
 	border-top: solid #999 1px;
+	width: 100%;
 }
 
 .titleDemo {
@@ -124,8 +125,7 @@ html, body {
 }
 
 .titleDemoDesc {
-	width: 40%;
-	text-align: center;
+	width: 75%;
 	margin: 1em auto;
 }
 .titleFuncionalidad {
@@ -166,5 +166,10 @@ p {
 }
 
 #linkDoers:hover {
+	color: #c0392b;
+}
+.proxLaunch {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
 	color: #c0392b;
 }
