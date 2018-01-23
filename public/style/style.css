@@ -177,6 +177,9 @@ p {
     .content {
         width: 100%;
     }
+    .content .content {
+    	width: 75%;
+    }
 }
 
 .pipe {
