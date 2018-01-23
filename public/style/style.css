@@ -172,15 +172,12 @@ p {
 	font-weight: 300;
 	color: #c0392b;
 }
-/*
+
 @media only screen and (max-width: 800px) {
-    .content {
-        width: 100%;
+    .kdabraLogo {
+        font-size: 5em;
     }
-    .content .content {
-    	width: 75%;
-    }
-}*/
+}
 
 .pipe {
 	font-family: 'Montserrat', sans-serif;
