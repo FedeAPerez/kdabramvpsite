@@ -178,3 +178,9 @@ p {
         width: 100;
     }
 }
+
+.pipe {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: #c0392b;	
+}
