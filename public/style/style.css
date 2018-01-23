@@ -177,6 +177,9 @@ p {
     .kdabraLogo {
         font-size: 5em;
     }
+    .kdabraDesc {
+    	text-align: center;
+    }
 }
 
 .pipe {
