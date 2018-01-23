@@ -182,6 +182,7 @@ p {
     }
     .kdabraDesc {
     	text-align: center;
+    	width: 75vh;
     }
 }
 
