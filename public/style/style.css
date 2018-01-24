@@ -95,10 +95,9 @@ html, body {
 
 .content {
 	height: 100%;
-	width: 100%;
 	margin: auto;
 	display: table;
-	top 0;
+	top: 0;
 
 }
 #content .demo {
@@ -182,6 +181,9 @@ p {
     }
     .kdabraDesc {
     	text-align: center;
+    		margin: auto;
+	display: table;
+	top: 0;
     }
 }
 
