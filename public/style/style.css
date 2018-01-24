@@ -97,7 +97,6 @@ html, body {
 	height: 100%;
 	margin: auto;
 	display: table;
-	top: 0;
 
 }
 #content .demo {
@@ -181,7 +180,6 @@ p {
     }
     .kdabraDesc {
     	text-align: center;
-    		margin: auto;
 	display: table;
 	top: 0;
     }
