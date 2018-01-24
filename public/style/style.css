@@ -1,14 +1,14 @@
 /* *
  * RESET DE STYLES
  * */
-html, body {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	width: 100%;
-	max-width: 100%;
-    overflow-x: hidden;
-}
+ html, body {
+ 	margin: 0;
+ 	padding: 0;
+ 	height: 100%;
+ 	width: 100%;
+ 	max-width: 100%;
+ 	overflow-x: hidden;
+ }
 
 
 /* * *
@@ -19,64 +19,64 @@ html, body {
  * COMIENZO
  * */ 
  
-.intro {
-	height: 100%;
-	width: 100%;
-	margin: auto;
-	display: table;
-	top: 0;
+ .intro {
+ 	height: 100%;
+ 	width: 100%;
+ 	margin: auto;
+ 	display: table;
+ 	top: 0;
 
-}
+ }
 
-.intro .inner {
-	display: table-cell;
-	vertical-align: middle;
-	width: 100%;
-	max-width: none;
-}
+ .intro .inner {
+ 	display: table-cell;
+ 	vertical-align: middle;
+ 	width: 100%;
+ 	max-width: none;
+ }
 
-.innerContent {
-	max-width: 500px;
-	margin: 0 auto;
-	text-align: center;
-}
+ .innerContent {
+ 	max-width: 500px;
+ 	margin: 0 auto;
+ 	text-align: center;
+ }
 
-/* Logo de Kdabra en grande */
-.kdabraLogo {
-	color: #c0392b;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-	font-size: 7em;
-	padding: 0;
-	margin: 0;
-}
+ /* Logo de Kdabra en grande */
+ .kdabraLogo {
+ 	color: #c0392b;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-weight: 700;
+ 	font-size: 7em;
+ 	padding: 0;
+ 	margin: 0;
+ }
 
-/* Descripción y sub-mensaje */
-.kdabraDesc {
-	margin: 0em 0em 10em 0em;
-	font-style: italic;
-	font-family: 'Montserrat', sans-serif;
-}
+ /* Descripción y sub-mensaje */
+ .kdabraDesc {
+ 	margin: 0em 0em 10em 0em;
+ 	font-style: italic;
+ 	font-family: 'Montserrat', sans-serif;
+ }
 
-/* Botón Comenza y acción al hover */
-.btnStart {
-	color: #2c3e50;
-	font-family: 'Oswald', sans-serif;
-	text-transform: uppercase;
-	font-weight: 500;
-	font-size: 3em;
-	text-decoration: none;
-	border: solid  #2c3e50 3px;
-	border-radius: 9px;
-	padding: 0.4em 0.8em;
-	margin-bottom: 0;
-	margin-top: 6em;
-}
+ /* Botón Comenza y acción al hover */
+ .btnStart {
+ 	color: #2c3e50;
+ 	font-family: 'Oswald', sans-serif;
+ 	text-transform: uppercase;
+ 	font-weight: 500;
+ 	font-size: 3em;
+ 	text-decoration: none;
+ 	border: solid  #2c3e50 3px;
+ 	border-radius: 9px;
+ 	padding: 0.4em 0.8em;
+ 	margin-bottom: 0;
+ 	margin-top: 6em;
+ }
 
-.btnStart:hover {
-	color: #c0392b;
-	border-color: #c0392b;
-}
+ .btnStart:hover {
+ 	color: #c0392b;
+ 	border-color: #c0392b;
+ }
 
 /* *
  * FIN
@@ -84,109 +84,112 @@ html, body {
 
 
 
-.textKdabra {
-	color: #c0392b;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-	font-size: 1em;
-	padding: 0;
-	margin: 0;
-}
+ .textKdabra {
+ 	color: #c0392b;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-weight: 700;
+ 	font-size: 1em;
+ 	padding: 0;
+ 	margin: 0;
+ }
 
-.content {
-	height: 100%;
-	margin: auto;
-	display: table;
+ .content {
+ 	height: 100%;
+ 	margin: auto;
+ 	display: table;
 
-}
-#content .demo {
-	margin: 0;
-	padding: 0.5em;
-	background-color: #f9f9f9;
-	border-bottom: solid #999 1px;
-	border-top: solid #999 1px;
-	width: 100%;
-}
+ }
+ #content .demo {
+ 	margin: 0;
+ 	padding: 0.5em;
+ 	background-color: #f9f9f9;
+ 	border-bottom: solid #999 1px;
+ 	border-top: solid #999 1px;
+ 	width: 100%;
+ }
 
-.titleDemo {
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	color: #999;
-	font-weight: 300;
-	margin: 0;
-}
+ .titleDemo {
+ 	font-family: 'Montserrat', sans-serif;
+ 	text-align: center;
+ 	color: #999;
+ 	font-weight: 300;
+ 	margin: 0;
+ }
 
-.titleDemo a {
-	text-decoration: none;
-	color: #999;
-}
+ .titleDemo a {
+ 	text-decoration: none;
+ 	color: #999;
+ }
 
-.titleDemo a:hover{
-	color: #c0392b;
-}
+ .titleDemo a:hover{
+ 	color: #c0392b;
+ }
 
-.titleDemoDesc {
-	width: 75%;
-	margin: 1em auto;
-}
-.titleFuncionalidad {
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	color: #999;
-	font-weight: 300;
-}
-.titlePlan {
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	color: black;
-	font-weight: 900;
-}
-.pricing {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
-}
-.negritaResaltado {
-	font-weight: 700;
-}
+ .titleDemoDesc {
+ 	width: 75%;
+ 	margin: 1em auto;
+ }
+ .titleFuncionalidad {
+ 	font-family: 'Montserrat', sans-serif;
+ 	text-align: center;
+ 	color: #999;
+ 	font-weight: 300;
+ }
+ .titlePlan {
+ 	font-family: 'Montserrat', sans-serif;
+ 	text-align: center;
+ 	color: black;
+ 	font-weight: 900;
+ }
+ .pricing {
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-weight: 300;
+ }
+ .negritaResaltado {
+ 	font-weight: 700;
+ }
 
-p {
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	font-weight: 300;
-	color: black;
-}
-.content {
-	width: 75%;
-}
+ p {
+ 	font-family: 'Montserrat', sans-serif;
+ 	text-align: center;
+ 	font-weight: 300;
+ 	color: black;
+ }
+ .content {
+ 	width: 75%;
+ }
 
 
-#linkDoers {
-	text-decoration: none;
-	color: black;
-}
+ #linkDoers {
+ 	text-decoration: none;
+ 	color: black;
+ }
 
-#linkDoers:hover {
-	color: #c0392b;
-}
-.proxLaunch {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
-	color: #c0392b;
-}
+ #linkDoers:hover {
+ 	color: #c0392b;
+ }
+ .proxLaunch {
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-weight: 300;
+ 	color: #c0392b;
+ }
 
-@media only screen and (max-width: 800px) {
-    .kdabraLogo {
-        font-size: 5em;
-    }
-    .kdabraDesc {
-    	text-align: center;
-	display: table;
-	top: 0;
-    }
-}
+ @media only screen and (max-width: 800px) {
+ 	.kdabraLogo {
+ 		font-size: 5em;
+ 	}
+ 	.kdabraDesc {
+ 		text-align: center;
+ 		display: table;
+ 		top: 0;
+ 	}
+ 	.btnStart {
+ 		padding: 0.1em 0.2em;
+ 	}
+ }
 
-.pipe {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	color: #c0392b;	
-}
+ .pipe {
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-weight: 700;
+ 	color: #c0392b;	
+ }
