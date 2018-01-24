@@ -37,6 +37,7 @@
 
  .innerContent {
  	margin: 0 auto;
+
  	text-align: center;
  }
 
@@ -52,8 +53,8 @@
 
  /* Descripción y sub-mensaje */
  .kdabraDesc {
- 	margin: 0em 0em 10em 0em;
  	font-style: italic;
+ 	padding: 0;
  	font-family: 'Montserrat', sans-serif;
  }
 
