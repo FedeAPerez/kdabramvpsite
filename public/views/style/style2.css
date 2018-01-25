@@ -287,7 +287,11 @@
     margin-bottom: 0.5em;
    }
 
-
+.imgPlan {
+      margin: 0 auto;
+      display: block;
+      width: 75%;
+    }
    } 
 
    .pipe {
