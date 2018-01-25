@@ -89,7 +89,23 @@
    * FIN
    * */ 
 
+   .headerText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+   }
 
+   .headerText::after { 
+    content: "";
+    display: block;
+    width: 80px;
+    height: 1px;
+    background: #f16334;
+    position: absolute;
+    bottom: 0;
+   }
 
    .textKdabra {
    	color: #c0392b;
