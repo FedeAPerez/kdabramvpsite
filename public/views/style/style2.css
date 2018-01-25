@@ -228,7 +228,15 @@ footer p {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
-
+.linkKdabra {
+  text-decoration: none;
+  color: #c0392b;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
 /* *
  * MEDIA FOR MOBILE AND SMALLER SCREENS
  * */
