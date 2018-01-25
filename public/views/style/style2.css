@@ -249,6 +249,7 @@ input::-webkit-input-placeholder {
 }
 input:focus::-webkit-input-placeholder {
     color: #95a5a6;
+    outline: none !important;
 }
 
 /* Firefox < 19 */
@@ -257,6 +258,7 @@ input:-moz-placeholder {
 }
 input:focus:-moz-placeholder {
     color: #95a5a6;
+    outline: none !important;
 }
 
 /* Firefox > 19 */
@@ -265,6 +267,7 @@ input::-moz-placeholder {
 }
 input:focus::-moz-placeholder {
     color: #95a5a6;
+    outline: none !important;
 }
 
 /* Internet Explorer 10 */
@@ -273,6 +276,7 @@ input:-ms-input-placeholder {
 }
 input:focus:-ms-input-placeholder {
     color: #95a5a6;
+    outline: none !important;
 }
 
 .inputForm {
@@ -289,18 +293,7 @@ input:focus:-ms-input-placeholder {
   border-top: none;
   border-left: none;
 }
-.inputLabel {
-  text-align: left;
-  display: block;
-  width: 80%;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-  margin: 0 auto;
 
-}
 .inputForm:focus { 
   border-top: none;
   border-left: none;
