@@ -1,22 +1,22 @@
 // server.js
 var express        	= require('express');
 var bodyParser     	= require('body-parser');
+var path = require('path');
 var app            	= express();
 
 const port 				= 8000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
-app.use(express.static(__dirname + "/public"));
+app.use(express.static(path.join(__dirname + '/public/views')));
 
-require('./app/routes')(app);
 
 app.get('/', function (req, res) {
-  res.render('index', {});
+  res.render('/index', {});
 });
 
-app.get('/indexb', function (req, res) {
-  res.render('index2', {});
+app.get('/test', function(req, res) {
+	res.render(path.join(__dirname + '/public/views/test'), {});
 });
 
 
