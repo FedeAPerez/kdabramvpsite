@@ -97,15 +97,17 @@
     margin-bottom: 1.5em;
    }
 
-   .headerText::after { 
-    content: "";
+   .headerText::after {
+    content: '';
+    width: 4em;
+    height: 2px;
+    background: #c0392b;
+    bottom: -2px;
     display: block;
-    width: 80px;
-    height: 1px;
-    background: #f16334;
-    position: absolute;
-    bottom: 0;
-   }
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0.33em;
+}
 
    .textKdabra {
    	color: #c0392b;
