@@ -244,6 +244,37 @@ input, textarea, select, button {
      -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
           box-sizing: border-box;
 }
+input::-webkit-input-placeholder {
+    color: black;
+}
+input:focus::-webkit-input-placeholder {
+    color: #95a5a6;
+}
+
+/* Firefox < 19 */
+input:-moz-placeholder {
+    color: black;
+}
+input:focus:-moz-placeholder {
+    color: #95a5a6;
+}
+
+/* Firefox > 19 */
+input::-moz-placeholder {
+    color: black;
+}
+input:focus::-moz-placeholder {
+    color: #95a5a6;
+}
+
+/* Internet Explorer 10 */
+input:-ms-input-placeholder {
+    color: black;
+}
+input:focus:-ms-input-placeholder {
+    color: #95a5a6;
+}
+
 .inputForm {
   text-align: center;
   display: block;
