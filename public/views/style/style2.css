@@ -204,15 +204,19 @@
     	color:white;
     }
 
-   @media only screen and (max-width: 800px) {
+   @media only screen and (max-width: 900px) {
    	.kdabraLogo {
    		font-size: 5em;
    	}
+
    	.kdabraDesc {
    		text-align: center;
-   		display: inline-block;
+   		display: block;
    		width: 75%;
-   	}
+      margin-left: 0.1em;
+      margin-right: 0.1em;
+    }
+
    	.btnStart {
       font-size: 1.5em;
       color: white;
