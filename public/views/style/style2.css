@@ -252,6 +252,18 @@ footer p {
   border-top: none;
   border-left: none;
 }
+.inputLabel {
+  text-align: left;
+  display: block;
+  width: 80%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  margin: 0 auto;
+
+}
 /* *
  * MEDIA FOR MOBILE AND SMALLER SCREENS
  * */
