@@ -15,6 +15,11 @@ app.get('/', function (req, res) {
   res.render('index', {});
 });
 
+app.get('/indexb', function (req, res) {
+  res.render('index2', {});
+});
+
+
 app.listen((process.env.PORT || 8000), () => {
   	console.log('Se está ejecutando en el puerto: ' + port);
 });     

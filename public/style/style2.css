@@ -1,0 +1,230 @@
+  /* *
+   * RESET DE STYLES
+   * */
+   html, body {
+   	margin: 0;
+   	padding: 0;
+   	height: 100%;
+   	width: 100%;
+   	max-width: 100%;
+   	overflow-x: hidden;
+   }
+
+  header h1,
+  header h2,
+  section p,
+  footer p {
+     margin: 0;
+  }
+  /* * *
+   * SECCIÓN DE INTRODUCCIÓN
+   * * */
+
+  /* *
+   * COMIENZO
+   * */ 
+   
+   .intro {
+   	height: 100%;
+   	width: 100%;
+   	margin: auto;
+   	display: table;
+   	top: 0;
+    background-color: #c0392b;
+   }
+
+   .intro .inner {
+   	display: table-cell;
+   	vertical-align: middle;
+   	width: 100%;
+   	max-width: none;
+   }
+
+   .innerContent {
+   	margin: 0 auto;
+
+   	text-align: center;
+   }
+
+   /* Logo de Kdabra en grande */
+   .kdabraLogo {
+   	color: white;
+   	font-family: 'Roboto', sans-serif;
+   	font-weight: 700;
+   	font-size: 7em;
+   	padding: 0;
+   	margin: 0;
+   }
+
+   /* Descripción y sub-mensaje */
+   .kdabraDesc {
+   	font-style: italic;
+   	padding: 0;
+   	font-family: 'Montserrat', sans-serif;
+   	margin-bottom: 6em;
+   	margin-left: 6em;
+   	margin-right: 6em;
+   }
+
+   /* Botón Comenza y acción al hover */
+   .btnStart {
+   	color: #2c3e50;
+   	font-family: 'Oswald', sans-serif;
+   	text-transform: uppercase;
+   	font-weight: 500;
+   	font-size: 3em;
+   	text-decoration: none;
+   	border: solid  #2c3e50 3px;
+   	border-radius: 9px;
+   	padding: 0.4em 0.8em;
+   	margin-bottom: 0;
+   	margin-top: 6em;
+   }
+
+   .btnStart:hover {
+   	color: #c0392b;
+   	border-color: #c0392b;
+   }
+
+  /* *
+   * FIN
+   * */ 
+
+
+
+   .textKdabra {
+   	color: #c0392b;
+   	font-family: 'Roboto', sans-serif;
+   	font-weight: 700;
+   	font-size: 1em;
+   	padding: 0;
+   	margin: 0;
+   }
+
+   .content {
+   	height: 100%;
+   	margin: auto;
+   	display: table;
+
+   }
+   #content .demo {
+   	margin: 0;
+   	padding: 0.5em;
+   	background-color: #f9f9f9;
+   	border-bottom: solid #999 1px;
+   	border-top: solid #999 1px;
+   	width: 100%;
+   }
+
+   .titleDemo {
+   	font-family: 'Montserrat', sans-serif;
+   	text-align: center;
+   	color: #999;
+   	font-weight: 300;
+   	margin: 0;
+   }
+
+   .titleDemo a {
+   	text-decoration: none;
+   	color: #999;
+   }
+
+   .titleDemo a:hover{
+   	color: #c0392b;
+   }
+
+   .titleDemoDesc {
+   	width: 75%;
+   	margin: 1em auto;
+   }
+   .titleFuncionalidad {
+   	font-family: 'Montserrat', sans-serif;
+   	text-align: center;
+   	color: #999;
+   	font-weight: 300;
+   }
+   .titlePlan {
+   	font-family: 'Montserrat', sans-serif;
+   	text-align: center;
+   	color: black;
+   	font-weight: 900;
+   }
+   .pricing {
+   	font-family: 'Montserrat', sans-serif;
+   	font-weight: 300;
+   }
+   .negritaResaltado {
+   	font-weight: 700;
+   }
+
+   p {
+   	font-family: 'Montserrat', sans-serif;
+   	text-align: center;
+   	font-weight: 300;
+   	color: black;
+   }
+   .content {
+   	width: 75%;
+   }
+
+
+   #linkDoers {
+   	text-decoration: none;
+   	color: black;
+   }
+
+   #linkDoers:hover {
+   	color: #c0392b;
+   }
+   .proxLaunch {
+   	font-family: 'Montserrat', sans-serif;
+   	font-weight: 300;
+   	color: #c0392b;
+   }
+   /* *
+    * Footer styles
+    * */
+    footer {
+    	margin-top: 1em;
+    	margin-bottom: 0;
+    	padding: 0;
+    	padding-top: 1em;
+    	padding-bottom: 1em;
+    	background-color: #c0392b;
+    	width: 100%;
+    }
+    footer section {
+    	background-color: inherit;
+    	height: 100%;
+    	margin: auto;
+    	display: table;
+    	width: 75%;
+    }
+    footer p {
+    	text-align: center;
+    	color:white;
+    }
+
+   @media only screen and (max-width: 800px) {
+   	.kdabraLogo {
+   		font-size: 5em;
+   	}
+   	.kdabraDesc {
+   		text-align: center;
+   		display: inline-block;
+   		top: 0;
+   		margin-left: 0.3em;
+   		margin-right: 0.3em;
+   		width: 70%;
+   	}
+   	.btnStart {
+   		padding: 0.1em 0.2em;
+   		margin-top: 0.2em;
+   	}
+   }
+
+   .pipe {
+   	font-family: 'Montserrat', sans-serif;
+   	font-weight: 700;
+   	color: #c0392b;	
+   }
