@@ -237,6 +237,21 @@ footer p {
   display: block;
   text-align: center;
 }
+
+.inputForm {
+  text-align: center;
+  display: block;
+  width: 80%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  margin: 0 auto;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+}
 /* *
  * MEDIA FOR MOBILE AND SMALLER SCREENS
  * */
