@@ -210,7 +210,7 @@
    	}
    	.kdabraDesc {
    		text-align: center;
-   		display: block;
+   		display: inline-block;
    		width: 75%;
    	}
    	.btnStart {
