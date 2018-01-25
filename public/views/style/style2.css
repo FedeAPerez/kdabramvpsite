@@ -243,6 +243,15 @@ input, textarea, select, button {
   -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
      -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
           box-sizing: border-box;
+              text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
 }
 input::-webkit-input-placeholder {
     color: black;
