@@ -211,7 +211,7 @@
    	}
    	.kdabraDesc {
    		text-align: center;
-   		display: inline-block;
+   		display: block;
    		top: 0;
    		margin-left: 0.3em;
    		margin-right: 0.3em;
