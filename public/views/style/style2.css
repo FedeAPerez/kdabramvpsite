@@ -255,6 +255,7 @@ input:focus::-webkit-input-placeholder {
 /* Firefox < 19 */
 input:-moz-placeholder {
     color: black;
+    text-align: left;
 }
 input:focus:-moz-placeholder {
     color: #95a5a6;
@@ -264,6 +265,7 @@ input:focus:-moz-placeholder {
 /* Firefox > 19 */
 input::-moz-placeholder {
     color: black;
+    text-align: left;
 }
 input:focus::-moz-placeholder {
     color: #95a5a6;
@@ -272,6 +274,7 @@ input:focus::-moz-placeholder {
 
 /* Internet Explorer 10 */
 input:-ms-input-placeholder {
+    text-align: left;
     color: black;
 }
 input:focus:-ms-input-placeholder {
