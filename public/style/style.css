@@ -10,7 +10,12 @@
  	overflow-x: hidden;
  }
 
-
+header h1,
+header h2,
+section p,
+footer p {
+   margin: 0;
+}
 /* * *
  * SECCIÓN DE INTRODUCCIÓN
  * * */
@@ -176,6 +181,29 @@
  	font-weight: 300;
  	color: #c0392b;
  }
+ /* *
+  * Footer styles
+  * */
+  footer {
+  	margin-top: 1em;
+  	margin-bottom: 0;
+  	padding: 0;
+  	padding-top: 1em;
+  	padding-bottom: 1em;
+  	background-color: #c0392b;
+  	width: 100%;
+  }
+  footer section {
+  	background-color: inherit;
+  	height: 100%;
+  	margin: auto;
+  	display: table;
+  	width: 75%;
+  }
+  footer p {
+  	text-align: center;
+  	color:white;
+  }
 
  @media only screen and (max-width: 800px) {
  	.kdabraLogo {
