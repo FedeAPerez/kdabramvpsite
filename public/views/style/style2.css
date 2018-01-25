@@ -129,7 +129,7 @@ footer p {
 	height: 100%;
 	margin: auto;
 	display: table;
-
+  width: 75%;
 }
 #content .demo {
 	margin: 0;
@@ -173,13 +173,6 @@ footer p {
 	color: black;
 	font-weight: 900;
 }
-.pricing {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
-}
-.negritaResaltado {
-	font-weight: 700;
-}
 
 p {
 	font-family: 'Montserrat', sans-serif;
@@ -187,19 +180,18 @@ p {
 	font-weight: 300;
 	color: black;
 }
-.content {
-	width: 75%;
-}
+
 
 
 #linkDoers {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 #linkDoers:hover {
 	color: #c0392b;
 }
+
 .proxLaunch {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
@@ -228,10 +220,7 @@ footer p {
 	text-align: center;
 	color:white;
 }
-.imgPlan {
-  margin: 0 auto;
-  display: block;
-}
+
 .titlePlan {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -239,9 +228,7 @@ footer p {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
-.kdabraText {
-  color: #c0392b;
-}
+
 /* *
  * MEDIA FOR MOBILE AND SMALLER SCREENS
  * */
