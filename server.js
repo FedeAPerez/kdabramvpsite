@@ -7,19 +7,20 @@ var app            	= express();
 const port 				= 8000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
-app.set('view engine', 'ejs');
-app.use(express.static(path.join(__dirname + '/public/views')));
+app.engine('html', require('ejs').renderFile);
+app.set('view engine', 'html');
 
 
 app.get('/', function (req, res) {
-  res.render('/index', {});
+  res.render(path.join(__dirname + '/public/views/index.html'), {});
 });
 
-app.get('/test', function(req, res) {
-	res.render(path.join(__dirname + '/public/views/test'), {});
+app.get('/seetest', function (req, res) {
+  res.render(path.join(__dirname + '/public/views/test.html'), {});
 });
 
 
+app.use(express.static(path.join(__dirname + '/public/views')));
 app.listen((process.env.PORT || 8000), () => {
   	console.log('Se está ejecutando en el puerto: ' + port);
 });     
