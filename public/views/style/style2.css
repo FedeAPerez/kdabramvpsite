@@ -257,46 +257,7 @@ input, textarea, select, button {
     text-align: start;
     margin: 0em;
 }
-textarea:focus {
-  border-color: #c0392b;
-}
-input::-webkit-input-placeholder {
-    color: black;
-}
-input:focus::-webkit-input-placeholder {
-    color: #95a5a6;
-    outline: none !important;
-}
 
-/* Firefox < 19 */
-input:-moz-placeholder {
-    color: black;
-    text-align: left;
-}
-input:focus:-moz-placeholder {
-    color: #95a5a6;
-    outline: none !important;
-}
-
-/* Firefox > 19 */
-input::-moz-placeholder {
-    color: black;
-    text-align: left;
-}
-input:focus::-moz-placeholder {
-    color: #95a5a6;
-    outline: none !important;
-}
-
-/* Internet Explorer 10 */
-input:-ms-input-placeholder {
-    text-align: left;
-    color: black;
-}
-input:focus:-ms-input-placeholder {
-    color: #95a5a6;
-    outline: none !important;
-}
 
 .inputForm {
   text-align: center;
@@ -320,6 +281,11 @@ input:focus:-ms-input-placeholder {
   border-left: none;
   border-right: none;
   border-bottom: none;
+}
+
+.button {
+  background-color: #ff7979;
+  border: none;
 }
 /* *
  * MEDIA FOR MOBILE AND SMALLER SCREENS
