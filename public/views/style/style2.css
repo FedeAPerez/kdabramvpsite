@@ -284,8 +284,7 @@ input, textarea, select, button {
 }
 
 .button {
-  background-color: #ff7979;
-  border: none;
+  border-color: #ff7979;
   height: 1.5em;
   padding-top: 0.33em;
   padding-bottom: 0.33em;
