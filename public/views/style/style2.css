@@ -253,6 +253,9 @@ input, textarea, select, button {
     text-align: start;
     margin: 0em;
 }
+textarea:focus {
+  border-color: #c0392b;
+}
 input::-webkit-input-placeholder {
     color: black;
 }
