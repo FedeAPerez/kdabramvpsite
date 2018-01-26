@@ -312,9 +312,7 @@ input:focus:-ms-input-placeholder {
   background-color: transparent;
   border-top: none;
   border-left: none;
-  border-color: #95afc0;
-  border-style: solid;
-    margin-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .inputForm:focus { 
