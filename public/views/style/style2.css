@@ -284,10 +284,9 @@ input, textarea, select, button {
 }
 
 .button {
-  border-color: #ff7979;
-  height: 1.5em;
-  padding-top: 0.33em;
-  padding-bottom: 0.33em;
+  border: 1px solid #ff7979;
+  border-radius: 9px;
+  height: 2em;
 }
 /* *
  * MEDIA FOR MOBILE AND SMALLER SCREENS
