@@ -309,6 +309,7 @@ input:focus:-ms-input-placeholder {
   font-size: 1.10em;
   margin: 0 auto;
   border-right: none;
+  background-color: transparent;
   border-top: none;
   border-left: none;
     margin-bottom: 1.5em;
