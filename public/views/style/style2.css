@@ -16,6 +16,10 @@ section p,
 footer p {
  margin: 0;
 }
+
+p {
+  font-size: 1.25em;
+}
 /* * *
 * SECCIÓN DE INTRODUCCIÓN
 * * */
@@ -302,11 +306,12 @@ input:focus:-ms-input-placeholder {
   font-weight: 300;
   font-size: 15px;
   margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  font-size: 1.25em;
   margin: 0 auto;
   border-right: none;
   border-top: none;
   border-left: none;
+    margin-bottom: 1.5em;
 }
 
 .inputForm:focus { 
