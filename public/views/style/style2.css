@@ -86,9 +86,6 @@ p {
 	margin-top: 6em;
 }
 
-.btnStart:hover {
-}
-
 /* *
 * FIN
 * */ 
@@ -286,6 +283,13 @@ input, textarea, select, button {
   border: 1px solid #ff7979;
   border-radius: 9px;
   height: 2em;
+}
+.buttonSending {
+  border: 1px solid #ff7979;
+  border-radius: 9px;
+  height: 2em;
+  background-color: #ff7979;
+  color: white;
 }
 /* *
  * MEDIA FOR MOBILE AND SMALLER SCREENS

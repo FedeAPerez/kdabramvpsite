@@ -19,6 +19,11 @@ app.get('/seetest', function (req, res) {
   res.render(path.join(__dirname + '/public/views/test.html'), {});
 });
 
+app.post('/contact', function (req, res) {
+  console.log("se llamo al metoyodo con el req " + JSON.stringify(req.body));
+  res.send("ok");
+});
+
 
 app.use(express.static(path.join(__dirname + '/public/views')));
 app.listen((process.env.PORT || 8000), () => {
