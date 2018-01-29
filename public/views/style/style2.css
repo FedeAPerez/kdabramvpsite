@@ -66,6 +66,7 @@ p {
   text-align: center;
   color: white;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   margin-bottom: 6em;
   margin-left: 6em;
   margin-right: 6em;
@@ -304,6 +305,7 @@ input, textarea, select, button {
     display: block;
     width: 100%;
     margin-left: 0;
+
     margin-right: 0;
   }
 

@@ -24,6 +24,10 @@ app.post('/contact', function (req, res) {
   res.send("ok");
 });
 
+app.get('/robots.txt', function (req, res) {
+    res.type('text/plain');
+    res.send("User-agent: *\nDisallow: /");
+});
 
 app.use(express.static(path.join(__dirname + '/public/views')));
 app.listen((process.env.PORT || 8000), () => {
