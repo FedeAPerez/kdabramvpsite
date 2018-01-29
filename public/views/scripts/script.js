@@ -22,7 +22,6 @@ $(document).ready(function(){
 				Email: email,
 				Mensaje: mensaje
 			};
-			console.log("comienza la llamada con el objeto " + sendInfo);
 			$.ajax({
 				type: "POST",
 				url: "http://localhost:8000/contact",
