@@ -16,7 +16,10 @@ section p,
 footer p {
  margin: 0;
 }
-
+.disabled {
+  visibility: hidden;
+  display: none;
+}
 p {
   font-size: 1.25em;
 }
