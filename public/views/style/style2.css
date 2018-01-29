@@ -315,7 +315,7 @@ input, textarea, select, button {
   .headerText {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
   }
@@ -338,7 +338,7 @@ input, textarea, select, button {
   .headerTextNoAfter {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 23px;
     margin-top: 1.5em;
     margin-bottom: 0.5em;
   }
