@@ -1,9 +1,9 @@
 
 $(document).ready(function(){
-	$("a.page-scroll").click(function() {
-	    var targetDiv = $(this).attr('href');
+	$("a.scrollSection").click(function() {
+	    var targetSection = $(this).attr('href');
 	    $('html, body').animate({
-	        scrollTop: $(targetDiv).offset().top
+	        scrollTop: $(targetSection).offset().top
 	    }, 1000);
 	});
 
