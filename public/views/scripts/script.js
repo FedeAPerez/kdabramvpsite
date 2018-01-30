@@ -1,9 +1,10 @@
 
 $(document).ready(function(){
-	$("#idBtnStart").click(function (){
-		$('html, body').animate({
-			scrollTop: $("#content").offset().top
-		}, 700);
+	$("a.page-scroll").click(function() {
+	    var targetDiv = $(this).attr('href');
+	    $('html, body').animate({
+	        scrollTop: $(targetDiv).offset().top
+	    }, 1000);
 	});
 
 	$("#enviar").click(function (){
