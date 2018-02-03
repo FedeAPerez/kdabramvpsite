@@ -16,7 +16,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/seetest', function (req, res) {
-  res.render(path.join(__dirname + '/public/views/test.html'), {});
+  res.render(path.join(__dirname + '/public/views/test2.html'), {});
 });
 
 app.post('/contact', function (req, res) {
