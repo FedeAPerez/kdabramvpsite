@@ -313,16 +313,19 @@ input, textarea, select, button {
  * MEDIA FOR MOBILE AND SMALLER SCREENS
  * */
  @media only screen and (max-width: 900px) {
-   .kdabra-h1 {
-    font-size: 3em;
+  .kdabra-h1-logo {
+    font-size: 1.25em;
+  }
+
+  .kdabra-h1 {
+    font-size: 2em;
   }
 
   .kdabra-h1-sub {
     text-align: center;
     display: block;
-    width: 90%;
+    width: 100%;
     margin-left: 0;
-
     margin-right: 0;
   }
 
