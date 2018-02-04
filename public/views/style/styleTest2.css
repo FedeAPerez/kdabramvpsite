@@ -309,10 +309,18 @@ input, textarea, select, button {
   background-color: #ff7979;
   color: white;
 }
+  .plan {
+    margin: 0.25em;
+    padding: 30px 10px 45px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.08), 0 1px 3px 0 rgba(0,0,0,.05);
+  }
 /* *
  * MEDIA FOR MOBILE AND SMALLER SCREENS
  * */
  @media only screen and (max-width: 900px) {
+
   .kdabra-h1-logo {
     font-size: 1.25em;
   }
