@@ -21,7 +21,7 @@ app.get('/seetest', function (req, res) {
 
 app.post('/contact', function (req, res) {
   console.log("se llamo al metoyodo con el req " + JSON.stringify(req.body));
-  res.send("ok");
+  res.sendStatus(200)
 });
 
 app.get('/robots.txt', function (req, res) {

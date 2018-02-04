@@ -15,13 +15,15 @@ $(document).ready(function(){
 			var plan 	= $("#plan").val();
 			var email 	= $("#email").val();
 			var mensaje = $("#mensaje").val();
+			var formTested = $("#form").val();
 
 			var sendInfo = {
 				Nombre: nombre,
 				Empresa: empresa,
 				Plan: plan,
 				Email: email,
-				Mensaje: mensaje
+				Mensaje: mensaje,
+				Test: formTested
 			};
 			$.ajax({
 				type: "POST",
