@@ -26,11 +26,12 @@ p {
 /* * *
 * SECCIÓN DE INTRODUCCIÓN
 * * */
-
+header {
+  background-color: #c0392b;
+}
 /* *
 * COMIENZO
 * */ 
-
 .intro {
 	height: 100%;
 	width: 100%;
@@ -49,16 +50,30 @@ p {
 
 .innerContent {
 	margin: 0 auto;
-
 	text-align: center;
 }
 
 /* Heading de KDABRA */
+
+.kdabra-h1-logo {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  padding: 0;
+  margin: 0;
+  /* eliminating de link*/
+  text-decoration: none;
+}
+.kdabra-h1-logo:hover {
+  
+}
+
 .kdabra-h1 {
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
-	font-size: 7em;
+	font-size: 5em;
 	padding: 0;
 	margin: 0;
 }
