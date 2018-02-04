@@ -53,8 +53,8 @@ p {
 	text-align: center;
 }
 
-/* Logo de Kdabra en grande */
-.kdabraLogo {
+/* Heading de KDABRA */
+.kdabra-h1 {
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
@@ -64,8 +64,7 @@ p {
 }
 
 /* Descripción y sub-mensaje */
-.kdabraDesc {
-	font-style: italic;
+.kdabra-h1-sub {
   text-align: center;
   color: white;
   font-family: 'Montserrat', sans-serif;
@@ -299,14 +298,14 @@ input, textarea, select, button {
  * MEDIA FOR MOBILE AND SMALLER SCREENS
  * */
  @media only screen and (max-width: 900px) {
-   .kdabraLogo {
-    font-size: 5em;
+   .kdabra-h1 {
+    font-size: 3em;
   }
 
-  .kdabraDesc {
+  .kdabra-h1-sub {
     text-align: center;
     display: block;
-    width: 100%;
+    width: 90%;
     margin-left: 0;
 
     margin-right: 0;
