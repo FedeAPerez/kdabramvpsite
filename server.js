@@ -12,7 +12,7 @@ app.set('view engine', 'html');
 
 
 app.get('/', function (req, res) {
-  res.render(path.join(__dirname + '/public/views/test.html'), {});
+  res.render(path.join(__dirname + '/public/views/test2.html'), {});
 });
 
 app.get('/seetest', function (req, res) {
