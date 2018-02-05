@@ -47,7 +47,11 @@ header {
 	width: 100%;
 	max-width: none;
 }
-
+form {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
 .innerContent {
 	margin: 0 auto;
 	text-align: center;
