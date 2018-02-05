@@ -264,17 +264,17 @@ input, textarea, select, button {
   margin: 0 auto;
 
   -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
-     -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
-          box-sizing: border-box;
-              text-rendering: auto;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    margin: 0em;
+  -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+  box-sizing: border-box;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em;
 }
 
 .inputForm {
@@ -313,23 +313,25 @@ input, textarea, select, button {
   background-color: #ff7979;
   color: white;
 }
-  .plan {
-    margin: 2em auto;
-    padding: 30px 10px 45px;
-    display: block;
-    width: 80%;
-    border-radius: 15px;
-    background-color: #fff;
-    box-shadow: 0 2px 6px 0 rgba(0,0,0,.08), 0 1px 3px 0 rgba(0,0,0,.05);
-  }
-  .orange {
-    color: #e67e22;
-  }
+.plan {
+  margin: 2em auto;
+  padding: 30px 10px 45px;
+  display: block;
+  width: 80%;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,.08), 0 1px 3px 0 rgba(0,0,0,.05);
+}
+.orange {
+  color: #e67e22;
+}
 /* *
  * MEDIA FOR MOBILE AND SMALLER SCREENS
  * */
  @media only screen and (max-width: 900px) {
-
+  .plan {
+    width: 90%;
+  }
   .kdabra-h1-logo {
     font-size: 1.25em;
   }
