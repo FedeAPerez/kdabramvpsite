@@ -10,6 +10,15 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 
+app.all(/.*/, function(req, res, next) {
+  var host = req.header("host");
+  if (host.match(/^www\..*/i)) {
+    next();
+  } else {
+    res.redirect(301, "http://www." + host);
+  }
+});
+
 
 app.get('/', function (req, res) {
   res.render(path.join(__dirname + '/public/views/test2.html'), {});
