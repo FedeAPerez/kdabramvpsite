@@ -333,6 +333,12 @@ input, textarea, select, button {
     font-size: 16px;
     height: 2em;
 }
+#social-net a img{
+  border: 0 none;
+}
+#social-net a {
+  text-decoration: none;
+}
 /* *
  * MEDIA FOR MOBILE AND SMALLER SCREENS
  * */
