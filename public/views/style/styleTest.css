@@ -2,12 +2,12 @@
 * RESET DE STYLES
 * */
 html, body {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	width: 100%;
-	max-width: 100%;
-	overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 header h1,
@@ -26,68 +26,98 @@ p {
 /* * *
 * SECCIÓN DE INTRODUCCIÓN
 * * */
-
+header {
+  background-color: #f16334;
+}
 /* *
 * COMIENZO
 * */ 
-
 .intro {
-	height: 100%;
-	width: 100%;
-	margin: auto;
-	display: table;
-	top: 0;
-  background-color: #c0392b;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: table;
+  top: 0;
+  background-color: #f16334;
 }
 
 .intro .inner {
-	display: table-cell;
-	vertical-align: middle;
-	width: 100%;
-	max-width: none;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
 }
-
+form {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
 .innerContent {
-	margin: 0 auto;
-
-	text-align: center;
+  margin: 0 auto;
+  text-align: center;
 }
 
-/* Logo de Kdabra en grande */
-.kdabraLogo {
-	color: white;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-	font-size: 7em;
-	padding: 0;
-	margin: 0;
+/* Heading de KDABRA */
+
+.kdabra-h1-logo {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  padding: 0;
+  margin: 0;
+  /* eliminating de link*/
+  text-decoration: none;
+}
+.kdabra-h1-logo:hover {
+  
+}
+
+.kdabra-h1 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 5em;
+  padding: 0;
+  margin: 0;
 }
 
 /* Descripción y sub-mensaje */
-.kdabraDesc {
-	font-style: italic;
+.kdabra-h1-sub {
   text-align: center;
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  margin-bottom: 6em;
+  margin-bottom: 1em;
   margin-left: 6em;
   margin-right: 6em;
 }
 
+.kdabra-h1-vp {
+  text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 2em;
+    margin-left: 0em;
+    margin-right: 0em;
+}
+.wider {
+  font-weight: 700;
+}
 /* Botón Comenza y acción al hover */
 .btnStart {
-	color: white;
-	font-family: 'Oswald', sans-serif;
-	text-transform: uppercase;
-	font-weight: 500;
-	font-size: 3em;
-	text-decoration: none;
-	border: solid  white 3px;
-	border-radius: 9px;
-	padding: 0.4em 0.8em;
-	margin-bottom: 0.75em;
-	margin-top: 6em;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 3em;
+  text-decoration: none;
+  border: solid  white 3px;
+  border-radius: 9px;
+  padding: 0.4em 0.8em;
+  margin-bottom: 0.75em;
+  margin-top: 6em;
 }
 
 /* *
@@ -106,7 +136,7 @@ p {
   content: '';
   width: 4em;
   height: 2px;
-  background: #c0392b;
+  background: #f16334;
   bottom: -2px;
   display: block;
   text-align: center;
@@ -122,108 +152,110 @@ p {
 }
 
 .textKdabra {
-	color: #c0392b;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-	font-size: 1em;
-	padding: 0;
-	margin: 0;
+  color: #c0392b;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
 }
 
 .content {
-	height: 100%;
-	margin: auto;
-	display: table;
+  height: 100%;
+  margin: auto;
+  display: table;
   width: 75%;
 }
 #content .demo {
-	margin: 0;
-	padding: 0.5em;
-	background-color: #f9f9f9;
-	border-bottom: solid #999 1px;
-	border-top: solid #999 1px;
-	width: 100%;
+  margin: 0;
+  padding: 0.5em;
+  background-color: #f9f9f9;
+  border-bottom: solid #999 1px;
+  border-top: solid #999 1px;
+  width: 100%;
 }
 
 .titleDemo {
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	color: #999;
-	font-weight: 300;
-	margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #999;
+  font-weight: 300;
+  margin: 0;
 }
 
 .titleDemo a {
-	text-decoration: none;
-	color: #999;
+  text-decoration: none;
+  color: #999;
 }
 
 .titleDemo a:hover{
-	color: #c0392b;
+  color: #c0392b;
 }
 
 .titleDemoDesc {
-	width: 75%;
-	margin: 1em auto;
+  width: 75%;
+  margin: 1em auto;
 }
 .titleFuncionalidad {
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	color: #999;
-	font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #999;
+  font-weight: 300;
 }
 .titlePlan {
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	color: black;
-	font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: black;
+  font-weight: 900;
 }
 
 p {
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	font-weight: 300;
-	color: black;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: 300;
+  color: black;
 }
 
 
 
 #linkDoers {
-	text-decoration: none;
-	color: white;
+  text-decoration: none;
+  color: white;
 }
 
 #linkDoers:hover {
-	color: #c0392b;
+  color: white;
 }
 
 .proxLaunch {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
-	color: #c0392b;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #c0392b;
 }
 /* *
 * Footer styles
 * */
 footer {
-	margin-top: 1em;
-	margin-bottom: 0;
-	padding: 0;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	background-color: #c0392b;
-	width: 100%;
+  margin-top: 1em;
+  margin-bottom: 0;
+  padding: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #f16334;
+  width: 100%;
 }
 footer section {
-	background-color: inherit;
-	height: 100%;
-	margin: auto;
-	display: table;
-	width: 75%;
+  background-color: inherit;
+  height: 100%;
+  margin: auto;
+  display: table;
+  width: 75%;
 }
 footer p {
-	text-align: center;
-	color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.25em;
+  color: white;
 }
 
 .titlePlan {
@@ -246,17 +278,17 @@ input, textarea, select, button {
   margin: 0 auto;
 
   -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
-     -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
-          box-sizing: border-box;
-              text-rendering: auto;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    margin: 0em;
+  -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+  box-sizing: border-box;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em;
 }
 
 .inputForm {
@@ -295,20 +327,49 @@ input, textarea, select, button {
   background-color: #ff7979;
   color: white;
 }
+.plan {
+  margin: 2em auto;
+  padding: 30px 10px 45px;
+  display: block;
+  width: 80%;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,.08), 0 1px 3px 0 rgba(0,0,0,.05);
+}
+.orange {
+  color: #e67e22;
+}
+#social-net {
+      margin: 0.25em auto;
+    text-align: center;
+    font-size: 16px;
+    height: 2em;
+}
+#social-net a img{
+  border: 0 none;
+}
+#social-net a {
+  text-decoration: none;
+}
 /* *
  * MEDIA FOR MOBILE AND SMALLER SCREENS
  * */
  @media only screen and (max-width: 900px) {
-   .kdabraLogo {
-    font-size: 5em;
+  .plan {
+    width: 90%;
+  }
+  .kdabra-h1-logo {
+    font-size: 1.25em;
+  }
+  .kdabra-h1 {
+    font-size: 2em;
   }
 
-  .kdabraDesc {
+  .kdabra-h1-sub {
     text-align: center;
     display: block;
     width: 100%;
     margin-left: 0;
-
     margin-right: 0;
   }
 
@@ -348,5 +409,10 @@ input, textarea, select, button {
     margin-bottom: 0.5em;
   }
 
-
+  footer section p {
+    font-size: 0.90em;
+    text-align: center;
+    float: none;
+    display: block;
+  }
 } 

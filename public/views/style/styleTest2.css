@@ -88,11 +88,23 @@ form {
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  margin-bottom: 6em;
+  margin-bottom: 1em;
   margin-left: 6em;
   margin-right: 6em;
 }
 
+.kdabra-h1-vp {
+  text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 2em;
+    margin-left: 0em;
+    margin-right: 0em;
+}
+.wider {
+  font-weight: 700;
+}
 /* Botón Comenza y acción al hover */
 .btnStart {
 	color: white;
