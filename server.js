@@ -21,11 +21,9 @@ app.all(/.*/, function(req, res, next) {
 
 
 app.get('/', function (req, res) {
-  res.render(path.join(__dirname + '/public/views/test2.html'), {});
-});
-
-app.get('/seetest', function (req, res) {
+  // aleatoriamente dar una landing o la otra
   res.render(path.join(__dirname + '/public/views/test.html'), {});
+  res.render(path.join(__dirname + '/public/views/test2.html'), {});
 });
 
 app.post('/contact', function (req, res) {
