@@ -19,11 +19,16 @@ app.all(/.*/, function(req, res, next) {
   }
 });
 
+function randomIntInc (low, high) {
+    return Math.floor(Math.random() * (high - low + 1) + low);
+}
 
 app.get('/', function (req, res) {
   // aleatoriamente dar una landing o la otra
-  res.render(path.join(__dirname + '/public/views/test.html'), {});
-  res.render(path.join(__dirname + '/public/views/test2.html'), {});
+  if(randomIntInc(1,10) > 5)
+    res.render(path.join(__dirname + '/public/views/test.html'), {});
+  else
+    res.render(path.join(__dirname + '/public/views/test2.html'), {});
 });
 
 app.post('/contact', function (req, res) {
