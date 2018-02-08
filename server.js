@@ -31,6 +31,10 @@ app.get('/', function (req, res) {
     //res.render(path.join(__dirname + '/public/views/test2.html'), {});
 });
 
+app.get('/seetest', function (req, res) {
+    res.render(path.join(__dirname + '/public/views/test2.html'), {});
+});
+
 app.post('/contact', function (req, res) {
   console.log("se llamo al metoyodo con el req " + JSON.stringify(req.body));
   res.sendStatus(200)
