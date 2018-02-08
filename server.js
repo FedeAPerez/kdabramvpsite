@@ -25,10 +25,10 @@ function randomIntInc (low, high) {
 
 app.get('/', function (req, res) {
   // aleatoriamente dar una landing o la otra
-  if(randomIntInc(1,10) > 5)
+  //if(randomIntInc(1,10) > 5)
     res.render(path.join(__dirname + '/public/views/test.html'), {});
-  else
-    res.render(path.join(__dirname + '/public/views/test2.html'), {});
+  //else
+    //res.render(path.join(__dirname + '/public/views/test2.html'), {});
 });
 
 app.post('/contact', function (req, res) {
