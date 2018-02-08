@@ -147,6 +147,23 @@ form {
   margin-bottom: 0.75em;
   margin-top: 6em;
 }
+.btnContact {
+  color: orange;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1em;
+    text-decoration: none;
+    border: solid orange 3px;
+    border-radius: 9px;
+    padding: 0.4em 0.8em;
+    margin: 0 auto;
+    margin-bottom: 0.25em;
+    margin-top: 0.25em;
+    display: block;
+    text-align: center;
+    width: 60%;
+}
 
 /* *
 * FIN
