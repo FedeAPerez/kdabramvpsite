@@ -8,6 +8,7 @@ html, body {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
+  background-color: #f16334;
 }
 
 header h1,
@@ -29,10 +30,20 @@ p {
 header {
   background-color: #f16334;
 }
+main {
+  background-color: white;
+}
+.kdabra-nav {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 1em;
+}
+
 /* *
 * COMIENZO
 * */ 
-.intro {
+.kdabra-intro {
   height: 100%;
   width: 100%;
   margin: auto;
@@ -41,9 +52,9 @@ header {
   background-color: #f16334;
 }
 
-.intro .inner {
+.kdabra-inner {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: top;
   width: 100%;
   max-width: none;
 }
@@ -130,7 +141,7 @@ form {
     margin-left: 0em;
     margin-right: 0em;
 }
-.wider {
+.kdabra-wider {
   font-weight: 700;
 }
 /* Botón Comenza y acción al hover */
@@ -446,6 +457,13 @@ input, textarea, select, button {
  * */
 @media only screen and (min-width: 900px) 
 {
+  .kdabra-nav {
+    font-size: 2em;
+  }
+  .kdabra-intro {
+    margin: 2em auto;
+  }
+
   .kdabra-btn-start {
     font-size: 2em;
     display: block;
