@@ -411,13 +411,16 @@ input, textarea, select, button {
   }
 
   .kdabra-h1-sub {
-    text-align: center;
-    display: block;
-    width: 100%;
+     text-align: center;
+    display: inline-block;
+    width: 90%;
+    margin: 1em auto;
     margin-left: 0;
     margin-right: 0;
+
   }
 
+     
   .btnStart {
     font-size: 1.5em;
     color: white;
