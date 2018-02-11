@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-	$("a.scrollSection").click(function() {
+	$("a.scroll-section").click(function() {
 	    var targetSection = $(this).attr('href');
 	    $('html, body').animate({
 	        scrollTop: $(targetSection).offset().top

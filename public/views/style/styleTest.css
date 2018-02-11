@@ -134,19 +134,17 @@ form {
   font-weight: 700;
 }
 /* Botón Comenza y acción al hover */
-.btnStart {
+.kdabra-btn-start {
   color: #f16334;
   background-color: white;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 3em;
+  font-size: 1.5em;
   text-decoration: none;
   border: solid  white 3px;
   border-radius: 9px;
   padding: 0.4em 0.8em;
-  margin-bottom: 0.75em;
-  margin-top: 6em;
 }
 
 /* *
@@ -404,10 +402,6 @@ input, textarea, select, button {
 
   }
 
-  .btnStart {
-    font-size: 1.5em;
-  }
-
   .headerText {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -446,9 +440,23 @@ input, textarea, select, button {
     display: block;
   }
 } 
-
+/* *
+ * CAMBIO A MOBILE FIRST
+ * LOS ESTILOS SE HACEN MOBILE, LUEGO PANTALLAS SUPERIORES A 900PX
+ * */
 @media only screen and (min-width: 900px) 
 {
+  .kdabra-btn-start {
+    font-size: 2em;
+    display: block;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  /* *
+   * DIVS DE BENEFICIOS Y PROS DE KDABRA
+   * */
   #benefits {
     display: flex;
   }
@@ -458,6 +466,10 @@ input, textarea, select, button {
     width: 25%;
     margin: 2em 1em;
   }
+
+  /* *
+   * DIVS DE PLANES DE KDABRA
+   * */
   #plans {
     display: flex;
   }
@@ -468,3 +480,4 @@ input, textarea, select, button {
     margin: 2em 1em;
   }
 }
+
