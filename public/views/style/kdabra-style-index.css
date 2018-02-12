@@ -20,6 +20,10 @@ footer p {
 
 p {
   font-size: 1.25em;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: 300;
+  color: black;
 }
 
 /*
@@ -155,6 +159,65 @@ main {
   background-color: white;
 }
 
+.kdabra-main-content {
+  height: 100%;
+  margin: auto;
+  display: table;
+  width: 75%;
+}
+
+.kdabra-text-header-after {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.kdabra-text-header-after::after {
+  content: '';
+  width: 4em;
+  height: 2px;
+  background: #f16334;
+  bottom: -2px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0.33em;
+}
+.kdabra-text-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+}
+
+/*
+* === STYLES PLAN ===
+*/
+
+.kdabra-plan {
+  margin: 2em auto;
+  padding: 0.6em;
+  display: block;
+  width: 80%;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,.08), 0 1px 3px 0 rgba(0,0,0,.05);
+}
+
+.kdabra-plan-title {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+}
+
+.kdabra-plan-launch {
+  font-weight: 300;
+  color: #c0392b;
+}
 /*
 * ================================================
 * ================================================
@@ -174,144 +237,18 @@ main {
   font-weight: 700;
 }
 
-
-
-
-
-form {
-  width: 80%;
-  display: block;
-  margin: 0 auto;
+.kdabra-orange {
+  color: #e67e22;
 }
+/*
+* ================================================
+* ================================================
+* ================================================
+*/
 
-
-
-
-#benefits {
-  margin: 0 auto;
-  display: block;
-  width: 80%;
-}
-
-#benefits .benefit {
-
-  padding: 1em;
-  margin: 2em auto;
-  text-align: center;
-  transition-property: transform, background-color, color;
-  transition-duration: 1s;
-  border-radius: 15px;
-  color: black;
-  background-color: #fff;
-  box-shadow: 0 2px 6px 0 rgba(0,0,0,.08), 0 1px 3px 0 rgba(0,0,0,.05);
-}
-/*#benefits .benefit:hover {
-  transition-property: transform, background-color, color;
-  transition-duration: 1s;
-  transform: scale(1.10);
-  background-color: #f16334;
-  color: white;
-}*/
-#benefits .benefit p {
-  color: inherit;
-}
-
-/* *
-* FIN
-* */ 
-
-.headerText {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 40px;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-}
-
-.headerText::after {
-  content: '';
-  width: 4em;
-  height: 2px;
-  background: #f16334;
-  bottom: -2px;
-  display: block;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 0.33em;
-}
-.headerTextNoAfter {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 35px;
-  margin-top: 1.5em;
-  margin-bottom: 0.75em;
-}
-
-.textKdabra {
-  color: #c0392b;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 1em;
-  padding: 0;
-  margin: 0;
-}
-
-.content {
-  height: 100%;
-  margin: auto;
-  display: table;
-  width: 75%;
-}
-#content .demo {
-  margin: 0;
-  padding: 0.5em;
-  background-color: #f9f9f9;
-  border-bottom: solid #999 1px;
-  border-top: solid #999 1px;
-  width: 100%;
-}
-
-.titleDemo {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  color: #999;
-  font-weight: 300;
-  margin: 0;
-}
-
-.titleDemo a {
-  text-decoration: none;
-  color: #999;
-}
-
-.titleDemo a:hover{
-  color: #c0392b;
-}
-
-.titleDemoDesc {
-  width: 75%;
-  margin: 1em auto;
-}
-.titleFuncionalidad {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  color: #999;
-  font-weight: 300;
-}
-.titlePlan {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  color: black;
-  font-weight: 900;
-}
-
-p {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  font-weight: 300;
-  color: black;
-}
-
+/*
+* === STYLES FOOTER ===
+*/
 
 
 #linkDoers {
@@ -323,14 +260,6 @@ p {
   color: white;
 }
 
-.proxLaunch {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  color: #c0392b;
-}
-/* *
-* Footer styles
-* */
 footer {
   margin-top: 1em;
   margin-bottom: 0;
@@ -348,19 +277,9 @@ footer section {
   width: 75%;
 }
 footer p {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  font-size: 1.25em;
   color: white;
 }
 
-.titlePlan {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 30px;
-  margin-top: 0.9em;
-  margin-bottom: 0.9em;
-}
 .linkKdabra {
   text-decoration: none;
   color: #c0392b;
@@ -370,6 +289,9 @@ footer p {
   display: block;
   text-align: center;
 }
+
+
+
 input, textarea, select, button {
   margin: 0 auto;
 
@@ -421,18 +343,8 @@ input, textarea, select, button {
   height: 2em;
 }
 
-.plan {
-  margin: 2em auto;
-  padding: 0.6em;
-  display: block;
-  width: 80%;
-  border-radius: 15px;
-  background-color: #fff;
-  box-shadow: 0 2px 6px 0 rgba(0,0,0,.08), 0 1px 3px 0 rgba(0,0,0,.05);
-}
-.kdabra-orange {
-  color: #e67e22;
-}
+
+
 #social-net {
       margin: 0.25em auto;
     text-align: center;
@@ -509,6 +421,9 @@ input, textarea, select, button {
  * */
 @media only screen and (min-width: 900px) 
 {
+  p {
+    font-size: 1.66em;
+  }
   .kdabra-nav {
     font-size: 2em;
   }
