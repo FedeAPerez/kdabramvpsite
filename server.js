@@ -26,9 +26,12 @@ function randomIntInc (low, high) {
 app.get('/', function (req, res) {
     res.render(path.join(__dirname + '/public/views/index.html'), {});
 });
+app.get('/es', function (req, res) {
+    res.render(path.join(__dirname + '/public/views/index.html'), {});
+});
 
 app.get('/en', function (req, res) {
-    res.render(path.join(__dirname + '/public/views/indexes.html'), {});
+    res.render(path.join(__dirname + '/public/views/indexen.html'), {});
 });
 
 
