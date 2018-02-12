@@ -121,6 +121,7 @@ header {
   margin-bottom: 1em;
   margin-left: 1em;
   margin-right: 1em;
+
 }
 
 .kdabra-h1-vp {
@@ -167,11 +168,11 @@ main {
 }
 
 .kdabra-text-header-after {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 40px;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 .kdabra-text-header-after::after {
@@ -187,11 +188,12 @@ main {
 }
 .kdabra-text-header {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 35px;
-  margin-top: 1.5em;
-  margin-bottom: 0.75em;
+    font-weight: 400;
+    font-size: 23px;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
 }
+
 
 /*
 * === STYLES PLAN ===
@@ -201,7 +203,7 @@ main {
   margin: 2em auto;
   padding: 0.6em;
   display: block;
-  width: 80%;
+  width: 100%;
   border-radius: 15px;
   background-color: #fff;
   box-shadow: 0 2px 6px 0 rgba(0,0,0,.08), 0 1px 3px 0 rgba(0,0,0,.05);
@@ -240,6 +242,16 @@ main {
 .kdabra-orange {
   color: #e67e22;
 }
+
+.kdabra-link-demo {
+  text-decoration: none;
+  color: #c0392b;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
 /*
 * ================================================
 * ================================================
@@ -269,6 +281,7 @@ footer {
   background-color: #f16334;
   width: 100%;
 }
+
 footer section {
   background-color: inherit;
   height: 100%;
@@ -276,74 +289,14 @@ footer section {
   display: table;
   width: 75%;
 }
-footer p {
+
+footer section p {
+  font-size: 0.90em;
+  text-align: center;
+  float: none;
+  display: block;
   color: white;
 }
-
-.linkKdabra {
-  text-decoration: none;
-  color: #c0392b;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  margin: 0 auto;
-  display: block;
-  text-align: center;
-}
-
-
-
-input, textarea, select, button {
-  margin: 0 auto;
-
-  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
-  -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
-  box-sizing: border-box;
-  text-rendering: auto;
-  letter-spacing: normal;
-  word-spacing: normal;
-  text-transform: none;
-  text-indent: 0px;
-  text-shadow: none;
-  display: inline-block;
-  text-align: start;
-  margin: 0em;
-}
-
-.kdabra-contact-form {
-  margin: 0.5em auto;
-}
-
-.kdabra-input-form {
-  text-align: center;
-  display: block;
-  width: 80%;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  font-size: 15px;
-  margin-top: 1.5em;
-  font-size: 1.10em;
-  margin: 0 auto;
-  border-right: none;
-  background-color: transparent;
-  border-top: none;
-  border-left: none;
-  margin-bottom: 1.5em;
-}
-
-.kdabra-input-form:focus { 
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
-}
-
-.kdabra-button {
-  border: 1px solid #ff7979;
-  border-radius: 9px;
-  height: 2em;
-}
-
-
 
 #social-net {
       margin: 0.25em auto;
@@ -357,64 +310,8 @@ input, textarea, select, button {
 #social-net a {
   text-decoration: none;
 }
-/* *
- * MEDIA FOR MOBILE AND SMALLER SCREENS
- * *//*
- @media only screen and (max-width: 900px) {
-  .plan {
-    width: 90%;
-  }
-  .kdabra-h1 {
-    font-size: 2em;
-  }
 
-  .kdabra-h1-sub {
-     text-align: center;
-    display: inline-block;
-    width: 90%;
-    margin: 1em auto;
-    margin-left: 0;
-    margin-right: 0;
 
-  }
-
-  .headerText {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 28px;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-  }
-
-  .headerText::after {
-    content: '';
-    width: 2em;
-    height: 2px;
-    background: #c0392b;
-    bottom: -2px;
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 0.33em;
-  }
-  .kdabra-input-form {
-    display: inline-block;
-  }
-  .headerTextNoAfter {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 23px;
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
-  }
-
-  footer section p {
-    font-size: 0.90em;
-    text-align: center;
-    float: none;
-    display: block;
-  }
-} */
 /* *
  * CAMBIO A MOBILE FIRST
  * LOS ESTILOS SE HACEN MOBILE, LUEGO PANTALLAS SUPERIORES A 900PX
@@ -422,7 +319,7 @@ input, textarea, select, button {
 @media only screen and (min-width: 900px) 
 {
   p {
-    font-size: 1.66em;
+    font-size: 1.30em;
   }
   .kdabra-nav {
     font-size: 2em;
@@ -444,18 +341,12 @@ input, textarea, select, button {
     text-align: center;
     margin: 0 auto;
   }
-
-  /* *
-   * DIVS DE BENEFICIOS Y PROS DE KDABRA
-   * */
-  #benefits {
-    display: flex;
-  }
-  #benefits .benefit {
-    flex: 1;
-    display: inline-block;
-    width: 25%;
-    margin: 2em 1em;
+  .kdabra-text-header-after {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
   }
 
   /* *
@@ -469,6 +360,9 @@ input, textarea, select, button {
     display: inline-block;
     width: 25%;
     margin: 2em 1em;
+  }
+  .kdabra-plan-title {
+    font-size: 1.50em;
   }
 }
 
