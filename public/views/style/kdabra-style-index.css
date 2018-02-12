@@ -1,6 +1,6 @@
-/* *
-* RESET DE STYLES
-* */
+/*
+* === STYLES RESET ===
+*/
 html, body {
   margin: 0;
   padding: 0;
@@ -17,31 +17,40 @@ section p,
 footer p {
  margin: 0;
 }
-.disabled {
-  visibility: hidden;
-  display: none;
-}
+
 p {
   font-size: 1.25em;
 }
-/* * *
-* SECCIÓN DE INTRODUCCIÓN
-* * */
+
+/*
+* ================================================
+* ================================================
+* ================================================
+*/
+
+
+/*
+* === STYLES HEADER ===
+*/
 header {
   background-color: #f16334;
 }
-main {
-  background-color: white;
-}
+
 .kdabra-nav {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     padding: 1em;
 }
+
 .kdabra-lang-wrap {
   display: inline-block;
 }
+
+.kdabra-lang{
+  opacity: 0.5;
+}
+
 .kdabra-lang-active:before {
   width: 1px;
   height: 100%;
@@ -52,16 +61,23 @@ main {
   content: ' | ';
   position: relative;
 }
-.kdabra-lang{
-  opacity: 0.5;
-}
+
 .kdabra-lang-wrap a{
   text-decoration: none;
   color: white;
 }
-/* *
-* COMIENZO
-* */ 
+
+
+/*
+* ================================================
+* ================================================
+* ================================================
+*/
+
+/*
+* === STYLES INTRO ===
+*/
+
 .kdabra-intro {
   height: 100%;
   width: 100%;
@@ -77,33 +93,17 @@ main {
   width: 100%;
   max-width: none;
 }
-form {
-  width: 80%;
-  display: block;
-  margin: 0 auto;
-}
-.innerContent {
+
+.kdabra-inner-content {
   margin: 0 auto;
   text-align: center;
-}
-
-/* Heading de KDABRA */
-
-.kdabra-h1-logo {
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 1.25em;
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
 }
 
 .kdabra-h1 {
   color: white;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 5em;
+  font-size: 2em;
   padding: 0;
   margin: 0;
 }
@@ -115,9 +115,78 @@ form {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   margin-bottom: 1em;
-  margin-left: 6em;
-  margin-right: 6em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
+
+.kdabra-h1-vp {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.kdabra-btn-start {
+  color: #f16334;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-decoration: none;
+  border: solid  white 3px;
+  border-radius: 9px;
+  padding: 0.4em 0.8em;
+}
+
+/*
+* ================================================
+* ================================================
+* ================================================
+*/
+
+/*
+* === STYLES MAIN ===
+*/
+
+main {
+  background-color: white;
+}
+
+/*
+* ================================================
+* ================================================
+* ================================================
+*/
+
+/*
+* === STYLES GENERAL ===
+*/
+
+.disabled {
+  visibility: hidden;
+  display: none;
+}
+
+.kdabra-wider {
+  font-weight: 700;
+}
+
+
+
+
+
+form {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+
 #benefits {
   margin: 0 auto;
   display: block;
@@ -145,32 +214,6 @@ form {
 }*/
 #benefits .benefit p {
   color: inherit;
-}
-
-.kdabra-h1-vp {
-    text-align: center;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    margin-bottom: 2em;
-    margin-left: 0em;
-    margin-right: 0em;
-}
-.kdabra-wider {
-  font-weight: 700;
-}
-/* Botón Comenza y acción al hover */
-.kdabra-btn-start {
-  color: #f16334;
-  background-color: white;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 1.5em;
-  text-decoration: none;
-  border: solid  white 3px;
-  border-radius: 9px;
-  padding: 0.4em 0.8em;
 }
 
 /* *
@@ -344,10 +387,14 @@ input, textarea, select, button {
   margin: 0em;
 }
 
-.inputForm {
+.kdabra-contact-form {
+  margin: 0.5em auto;
+}
+
+.kdabra-input-form {
   text-align: center;
-  display: inline-block;
-  width: 45%;
+  display: block;
+  width: 80%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 15px;
@@ -361,25 +408,19 @@ input, textarea, select, button {
   margin-bottom: 1.5em;
 }
 
-.inputForm:focus { 
+.kdabra-input-form:focus { 
   border-top: none;
   border-left: none;
   border-right: none;
   border-bottom: none;
 }
 
-.button {
+.kdabra-button {
   border: 1px solid #ff7979;
   border-radius: 9px;
   height: 2em;
 }
-.buttonSending {
-  border: 1px solid #ff7979;
-  border-radius: 9px;
-  height: 2em;
-  background-color: #ff7979;
-  color: white;
-}
+
 .plan {
   margin: 2em auto;
   padding: 0.6em;
@@ -406,7 +447,7 @@ input, textarea, select, button {
 }
 /* *
  * MEDIA FOR MOBILE AND SMALLER SCREENS
- * */
+ * *//*
  @media only screen and (max-width: 900px) {
   .plan {
     width: 90%;
@@ -444,9 +485,8 @@ input, textarea, select, button {
     margin: 0 auto;
     margin-top: 0.33em;
   }
-  .inputForm {
-    width: 80%;
-    display: block;
+  .kdabra-input-form {
+    display: inline-block;
   }
   .headerTextNoAfter {
     font-family: 'Montserrat', sans-serif;
@@ -462,7 +502,7 @@ input, textarea, select, button {
     float: none;
     display: block;
   }
-} 
+} */
 /* *
  * CAMBIO A MOBILE FIRST
  * LOS ESTILOS SE HACEN MOBILE, LUEGO PANTALLAS SUPERIORES A 900PX
@@ -475,6 +515,10 @@ input, textarea, select, button {
   .kdabra-intro {
     margin: 2em auto;
   }
+  .kdabra-h1 {
+    font-size: 5em;
+  }
+
   .kdabra-h1-logo {
     font-size: 3em;
   }
