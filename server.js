@@ -46,7 +46,7 @@ app.get('/robots.txt', function (req, res) {
 });
 
 app.use(express.static(path.join(__dirname + '/public/views')));
-app.listen((process.env.PORT || 8000), () => {
+app.listen((process.env.PORT || port), () => {
   	console.log('Se está ejecutando en el puerto: ' + port);
 });     
           
