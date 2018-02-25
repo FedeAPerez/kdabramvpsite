@@ -208,7 +208,7 @@ main {
 .kdabra-benefit-img {
   text-align: center;
   display: block;
-  margin: 0 auto;
+  margin: 1em auto;
   transform:scale(2.0);
   -webkit-transform:scale(2.0);
 }
