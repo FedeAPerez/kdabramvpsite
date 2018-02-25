@@ -209,6 +209,8 @@ main {
   text-align: center;
   display: block;
   margin: 0 auto;
+  transform:scale(2.0);
+  -webkit-transform:scale(2.0);
 }
 .kdabra-benefit-title {
   font-family: 'Montserrat', sans-serif;
