@@ -383,15 +383,22 @@ footer section p {
     display: flex;
   }
   .kdabra-plan {
-    flex: 1;
+    flex: 1 33%;
     display: inline-block;
     justify-content: space-between;
     width: 25%;
     margin: 2em 1em;
+    height: auto;
   }
   .kdabra-plan-title {
     font-size: 1.50em;
   }
 
+    /* *
+   * SECTION DE FOOTER
+   * */
+   footer section p {
+    font-size: 1.2em;
+   }
 }
 
