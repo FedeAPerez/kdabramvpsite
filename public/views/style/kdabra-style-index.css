@@ -276,10 +276,9 @@ main {
   display: block;
   text-align: center;
 }
-
-  .kdabra-box-shadow:hover, .kdabra-box-shadow:active{
-    box-shadow: 0 8px 8px 0 rgba(11,37,71,.2), 0 0 1px 0 rgba(10,37,70,.2);
-  }
+.kdabra-box-shadow:hover , .kdabra-box-shadow:active{
+  box-shadow: 0 8px 8px 0 rgba(11,37,71,.2), 0 0 1px 0 rgba(10,37,70,.2);
+}
 /*
 * ================================================
 * ================================================
