@@ -276,6 +276,10 @@ main {
   display: block;
   text-align: center;
 }
+
+  .kdabra-box-shadow:hover, .kdabra-box-shadow:active{
+    box-shadow: 0 8px 8px 0 rgba(11,37,71,.2), 0 0 1px 0 rgba(10,37,70,.2);
+  }
 /*
 * ================================================
 * ================================================
@@ -379,7 +383,7 @@ footer section p {
   #kdabra-plans {
     display: flex;
   }
-  #kdabra-plans .kdabra-plan {
+  .kdabra-plan {
     flex: 1;
     display: inline-block;
     justify-content: space-between;
@@ -389,5 +393,6 @@ footer section p {
   .kdabra-plan-title {
     font-size: 1.50em;
   }
+
 }
 
