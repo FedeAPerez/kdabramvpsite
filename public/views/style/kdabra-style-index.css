@@ -103,6 +103,11 @@ header {
   text-align: center;
 }
 
+.kdabra-video-content {
+    width: 320px;
+    height:480px;
+}
+
 .kdabra-h1 {
   color: white;
   font-family: 'Roboto', sans-serif;
@@ -375,7 +380,10 @@ footer section p {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
   }
-
+.kdabra-video-content {
+    width: 1280px;
+    height:720px;
+}
   /* *
    * DIVS DE PLANES DE KDABRA
    * */
