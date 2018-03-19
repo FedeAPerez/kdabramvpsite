@@ -104,6 +104,8 @@ header {
 }
 
 .kdabra-video-content {
+  margin: 1em auto;
+  display: block;
     width: 320px;
     height:480px;
 }
